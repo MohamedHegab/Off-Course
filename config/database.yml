@@ -24,7 +24,8 @@ production:
   adapter: mysql2
   encoding: utf8
   pool: 5
+  password: 
   socket: /var/run/mysqld/mysqld.sock
   database: Off-Course_production
-  username: Off-course
+  username: Off-Course
   password: <%= ENV['secret_key_base'] %>
